@@ -1,0 +1,1 @@
+require(["./common"],function(e){require(["app/main3"])}),define("../page3",function(){}),define("app/main3",["require"],function(e){var t=document.querySelector(".btn");t.onclick=function(){e(["app/dynamic/d1"],function(){console.log("d1加载成功")})}});

@@ -1,0 +1,1 @@
+define([],function(){var e=document.querySelector("body"),t=document.createElement("h2");return t.innerHTML="加载d1成功",document.body.appendChild(t),t});

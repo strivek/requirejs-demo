@@ -1,0 +1,1 @@
+define(["require"],function(e){var t=document.querySelector(".btn");t.onclick=function(){e(["app/dynamic/d1"],function(){console.log("d1加载成功")})}});

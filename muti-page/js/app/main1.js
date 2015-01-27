@@ -10,4 +10,5 @@ define(function (require) {
     $(function () {
         controller.render(lib.getBody());
     });
+    
 });

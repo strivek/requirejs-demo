@@ -1,10 +1,10 @@
 {
-    appDir: '../www',
+    appDir: '../muti-page',
     baseUrl: 'js/lib',
     paths: {
         app: '../app'
     },
-    dir: '../www-built',
+    dir: '../muti-page-built',
     modules: [
         //First set up the common build layer.
         {
@@ -17,11 +17,6 @@
                 'app/lib',
                 'app/controller/Base',
                 'app/model/Base'
-            ]
-        }, {
-            name: '../common1',
-            include: ['jquery',
-                'app/lib'
             ]
         },
 
@@ -46,10 +41,11 @@
             include: ['app/main2'],
             exclude: ['../common']
         },
+
         {
-            name:"../page3",
-            include:['app/main1'],
-            exclude:['../common1']
+            name: '../page3',
+            include: ['app/main3'],
+            exclude: ['../common']
 
         }
 
